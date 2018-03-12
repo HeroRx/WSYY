@@ -1,0 +1,3 @@
+<resources>
+    <dimen name="week_item_sise">50dp</dimen>   <!--weekView控件条目圆圈大小-->
+</resources>

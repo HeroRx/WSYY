@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    >
+
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@color/yellow02"
+                    android:padding="8dp"
+                    android:text="暂无可挂医生\n请选择其他日期"
+                    android:textColor="@color/yellow"
+                    android:textSize="11sp" />
+
+
+
+
+</android.support.v7.widget.CardView>

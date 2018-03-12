@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+
+    >
+
+    <TextView
+        android:gravity="center|left"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/yellow02"
+        android:drawableLeft="@drawable/tip_icon"
+        android:drawablePadding="8dp"
+        android:padding="8dp"
+        android:text="温馨提示：超过16:00不可再挂当前的号"
+        android:textColor="@color/yellow"
+        android:textSize="11sp" />
+
+</LinearLayout>

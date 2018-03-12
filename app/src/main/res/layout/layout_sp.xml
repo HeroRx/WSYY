@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="挂号诊疗费"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/sp_money"
+                android:paddingRight="4dp"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:textColor="@color/red"
+                android:text="10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="元"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/orange"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="科室"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/sp_keshi"
+                android:paddingRight="4dp"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:textColor="@color/red"
+                android:text="内科-心血管科"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/orange"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="医生"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/sp_name"
+                android:paddingRight="4dp"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:textColor="@color/red"
+                android:text="从良"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/orange"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="就诊时间"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/sp_time"
+                android:paddingRight="4dp"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:textColor="@color/red"
+                android:text="2017-12-07 14:00-14:30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/layout_add"/>
+    <include layout="@layout/pay"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:background="@color/red03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:drawablePadding="5dp"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/g01"
+            android:text="温馨提示:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/orange"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+        <TextView
+            android:padding="10dp"
+            android:text="1、线上挂号支持自费、医保、公费病人\n2、如果预约的是特需专家号,如需取消此次预约挂号,请于就诊前一天20:00取消预约,如果没有取消预约且没有就诊则挂号费不能退回\n3、如提示该医生有锁号记录请取号,请点击菜单挂号记录查看是否有锁号记录，如无锁号记录请耐心等待10分钟\n4、以上摘自省中医公众号,如有侵权,马上删除,仅供本人学习所需,无作它用"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

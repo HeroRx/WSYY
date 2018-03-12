@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2017-11-29"
+        android:textColor="@color/yellow" />
+
+    <TextView
+        android:visibility="gone"
+        android:textStyle="italic"
+        android:textSize="10sp"
+        android:textColor="@color/red"
+        android:id="@+id/chaoshi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:gravity="center"
+        android:text="超时,不可挂" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:text="剩余"
+        android:textColor="@color/yellow" />
+
+    <TextView
+        android:id="@+id/date_hao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="19"
+        android:textColor="@color/yellow" />
+
+    <TextView
+        android:id="@+id/morning_config"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="8dp"
+        android:drawableRight="@drawable/right_arrow"
+        android:text="个号"
+        android:textColor="@color/yellow" />
+</LinearLayout>

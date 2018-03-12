@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="red">#861c1c</color>
+    <color name="red02">#f9cce2</color>
+    <color name="red03">#f5d4d9</color>
+    <color name="blue">#059de3</color>
+    <color name="orange">#ede0c0</color>
+    <color name="orange02">#f5e8c5</color>
+    <color name="yellow">#b48c5a</color>
+    <color name="yellow02">#fffef5</color>
+    <color name="write">#ffffff</color>
+
+
+    <!-- 主色 -->
+    <color name="main_color">#24cfa2</color>
+    <color name="defualt_text_color">#636363</color>
+
+    <!-- 根布局的背景 -->
+    <color name="root_bg_color">#efeded</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <!-- 线条的背景灰色 -->
+    <color name="gray">#F4F4F4</color>
+
+    <!-- 标题黑色 -->
+    <color name="title_black">#121212</color>
+
+    <!-- 头部颜色 -->
+    <color name="top_bg_color"> #323a45</color>
+
+    <!-- 深灰色 -->
+    <color name="main_digrey"> #999999</color>
+
+    <!-- 灰色 -->
+    <color name="main_gray"> #767676</color>
+
+    <!-- 无色 -->
+    <color name="no_color">#00000000</color>
+
+    <color name="myred">#ff0000</color>
+    <color name="darkgray">#cccc</color>
+    <color name="color_white">#ffffff</color>
+    <color name="btn_press_color">#5677fc</color>
+    <color name="btn_pressed_color">#3ca0ec</color>
+
+    <color name="line_bg">#e6e6e6</color>
+    <color name="window_background">#eaeaea</color>
+    <color name="font_normal">#555555</color>
+    <color name="black_alpha_45">#71000000</color>
+</resources>
+

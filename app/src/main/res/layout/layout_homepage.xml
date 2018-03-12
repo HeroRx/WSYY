@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/yellow"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:maxLines="2"
+        android:text="广州中医药大学第一附属医院"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv01"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:background="@color/orange02"
+            android:layout_margin="20dp"
+            android:foreground="?attr/selectableItemBackground"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            >
+
+            <TextView
+                android:background="@color/red02"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+            <TextView
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/image04"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="按科室挂号" />
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv02"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:background="@color/orange02"
+            android:layout_margin="20dp"
+            android:foreground="?attr/selectableItemBackground"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            >
+
+            <TextView
+                android:background="@color/red03"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/image08"
+                android:gravity="center"
+                android:text="按日期挂号" />
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv03"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:background="@color/orange02"
+            android:layout_margin="20dp"
+            android:foreground="?attr/selectableItemBackground"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            >
+
+            <TextView
+                android:background="@color/orange"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+            <TextView
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/image05"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="搜医生挂号" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv04"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:background="@color/orange02"
+            android:layout_margin="20dp"
+            android:foreground="?attr/selectableItemBackground"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            >
+
+            <TextView
+                android:background="@color/gray"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+            <TextView
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/image09"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="疑难会诊登记" />
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv05"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:background="@color/orange02"
+            android:layout_margin="20dp"
+            android:foreground="?attr/selectableItemBackground"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            >
+
+            <TextView
+                android:background="@color/orange02"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+            <TextView
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/image06"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="按专科挂号" />
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv06"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:background="@color/orange02"
+            android:layout_margin="20dp"
+            android:foreground="?attr/selectableItemBackground"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            >
+
+            <TextView
+                android:background="@color/darkgray"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+            <TextView
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/image07"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="智能导诊" />
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

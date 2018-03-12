@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LimitScroller">
+        <attr name="android:background"/>
+        <!--滚动速度，比如3000，滚动时间会持续3秒钟-->
+        <attr name="durationTime" format="integer" />
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+        <attr name="dateTextSize" format="integer" />
+        <attr name="dateTextColor" format="color" />
+        <attr name="scaleSize" format="float" />  <!--缩放动画增量1：不放大  2:放大两倍-->
+    </declare-styleable>
+    <declare-styleable name="WeekSelected">
+        <attr name="android:background"/>
+        <attr name="DateTextSize" format="integer" />
+        <attr name="DateTextColor" format="color" />
+        <attr name="WeekTextSize" format="integer" />
+        <attr name="WeekTextColor" format="color" />
+        <attr name="itembackground" format="reference|color"/>
+    </declare-styleable>
+    <declare-styleable name="roundedimageview">
+        <attr name="border_thickness" format="dimension"/>
+        <attr name="border_outside_color" format="color"/>
+        <attr name="border_inside_color" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="ProportionImageView" >
+        <attr name="widthProportion" format="float"/>
+        <attr name="heightProportion" format="float"/>
+    </declare-styleable>
+    <!-- CircleImageView -->
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_overlay" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="DaySelectedView">
+        <attr name="title_background_color" format="reference|integer" />
+        <attr name="title_text_color" format="color" />
+        <attr name="right_button_drawable" format="reference|integer" />
+        <attr name="left_button_drawable" format="reference|integer" />
+    </declare-styleable>
+</resources>

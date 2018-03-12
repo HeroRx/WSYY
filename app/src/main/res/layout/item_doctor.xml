@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    >
+
+    <LinearLayout
+        android:paddingLeft="12dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <com.gzucm.wsyy.view.RoundImageView
+            android:layout_gravity="center"
+            android:id="@+id/detail_head"
+            android:src="@drawable/d_head"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:layout_marginLeft="18dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/detail_name"
+                android:textColor="@color/red"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/detail_titles"
+                android:textColor="@color/main_gray"
+                android:layout_marginTop="4dp"
+                android:textSize="10sp"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textColor="@color/red"
+        android:text="选择就诊人"
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:drawableLeft="@drawable/g02"
+            android:drawablePadding="5dp"
+            android:id="@+id/add_none"
+            android:padding="15dp"
+            android:text="您还没有添加就诊人"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/patient"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:padding="15dp"
+                android:gravity="left"
+                android:textColor="@color/yellow"
+                android:text="当前绑定的就诊人"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:paddingBottom="15dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/p_name"
+                    android:textColor="@color/red"
+                    android:text="洪锐雄"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/p_card"
+                    android:paddingRight="15dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:textColor="@color/red"
+                    android:text="65462325"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/orange"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <TextView
+            android:drawableLeft="@drawable/add"
+            android:drawablePadding="5dp"
+            android:id="@+id/add"
+            android:padding="15dp"
+            android:text="添加/更改就诊人"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

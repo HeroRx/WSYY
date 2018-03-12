@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardBackgroundColor="@color/orange"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="10dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/ra"
+        android:padding="7dp"
+        android:background="@color/orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.gzucm.wsyy.view.RoundImageView
+            android:id="@+id/td_riv"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/d_head"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <LinearLayout
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:layout_marginLeft="18dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/td_tvname"
+                android:textColor="@color/red"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/td_tvtitle"
+                android:textColor="@color/main_gray"
+                android:layout_marginTop="4dp"
+                android:textSize="10sp"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:id="@+id/td_tvbd"
+                    android:textSize="10sp"
+                    android:textColor="@color/main_gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+                <TextView
+                    android:textSize="13sp"
+                    android:textColor="@color/yellow02"
+                    android:text=" - "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/td_tvd"
+                    android:textSize="10sp"
+                    android:drawablePadding="8dp"
+                    android:textColor="@color/main_gray"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center"
+            android:src="@drawable/right_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

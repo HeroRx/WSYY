@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="@color/white"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center"
+                android:text="医院名称"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/darkgray"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="广州中医药大学第一附属医院"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <View
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/orange"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center"
+                android:text="业务名称"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/darkgray"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="挂号费"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/orange"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center"
+                android:text="科室"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/pay_department"
+                android:textStyle="bold"
+                android:textColor="@color/darkgray"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="内科-心血管科"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/orange"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center"
+                android:text="医生"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/pay_doctor"
+                android:textColor="@color/darkgray"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="无良"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/orange"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center"
+                android:text="就诊时间"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/pay_time"
+                android:textStyle="bold"
+                android:textColor="@color/darkgray"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="2017-12-14 08:30-09:00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/orange"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center"
+                android:text="患者姓名"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/pay_name"
+                android:textStyle="bold"
+                android:textColor="@color/darkgray"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="洪锐雄"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/orange"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center"
+                android:text="就诊卡号"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/pay_hao"
+                android:textStyle="bold"
+                android:textColor="@color/darkgray"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="65462325"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/orange"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center"
+                android:text="付款金额"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/pay_count"
+                android:textStyle="bold"
+                android:textColor="@color/darkgray"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="10.0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="2dp"
+                android:layout_gravity="center"
+                android:text="元"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/pay"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:background="@color/red03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:drawablePadding="5dp"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/g01"
+            android:text="温馨提示:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/orange"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+        <TextView
+            android:padding="10dp"
+            android:text="1、请在10分钟内完成支付,逾期号源将会作废需要重新挂号,您还剩10:00可支付时间\n2、以上摘自省中医公众号,如有侵权,马上删除,仅供本人学习所需,无作它用"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
